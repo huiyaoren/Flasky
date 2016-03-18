@@ -43,8 +43,8 @@ app.config['SQLALCHEMY_DATABASE_URI'] = \
 app.config['MAIL_SERVER'] = 'smtp.sina.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
-app.config['MAIL_USERNAME'] = os.environ.get('wslshanlin@Sina.com')
-app.config['MAIL_PASSWORD'] = os.environ.get('Wls994180438')
+app.config['MAIL_USERNAME'] = os.environ.get('')
+app.config['MAIL_PASSWORD'] = os.environ.get('')
 
 app.config['FLASKY_ADMIN'] = os.environ.get('FLASKY_ADMIN')
 app.config['FLASKY_MAIL_SUBJECT_PREFIX'] = '[Flasky]'
